@@ -8,14 +8,12 @@ public class FahrenheitToCelcius {
         Fahrenheit=sc.nextDouble();
 
         celsius = (5.0 / 9.0) * (Fahrenheit - 32);
-        InputedFahrenheit=(9.0/5.0)*celsius+32;
+        InputedFahrenheit=(9.0/5.0)* celsius+ 32;
 
-        //celsius = ((int)(celsius * 100)) / 100.0;
-        //InputedFahrenheit = ((int)(InputedFahrenheit * 100)) / 100.0;
-        // truncate to 2 decimal places
+     //        celsius = ((int)(celsius * 100)) / 100.0;  // truncate to 2 decimal places
 
-        System.out.println("Temparature in Celsius =  "+celsius);
-        System.out.println("Inputed Fahrenheit= "+InputedFahrenheit);
+        System.out.printf("Temparature in Celsius =%.2f\n",celsius);
+        System.out.printf("Inputed Fahrenheit =%.2f\n", InputedFahrenheit);
 
         sc.close();
 
