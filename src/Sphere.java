@@ -12,8 +12,8 @@ public class Sphere {
 
         // Print sphere results with 2 decimal precision for readability
 
-        System.out.printf(" The Volume of Sphere =%.2f%n " ,volume);
-        System.out.printf("The Surface Area of Sphere = %.2f%n" ,area);
+        System.out.printf(" The Volume of Sphere =%.2f\n " ,volume);
+        System.out.printf("The Surface Area of Sphere = %.2f\n" ,area);
         sc.close();
     }
 }
