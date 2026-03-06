@@ -1,4 +1,4 @@
-package Class;
+package Constructor;
 
 class Fractionn {
     int num;
