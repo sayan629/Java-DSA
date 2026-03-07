@@ -1,3 +1,5 @@
+package Constructor;
+
 class Fraction{
     int num;
     int denum;
@@ -41,6 +43,7 @@ class Fraction{
         temp3.denum=f.num*denum;
         return temp3;
     }
+
 }
 public class FractionDE{
     static void main(String[] args) {
@@ -65,3 +68,4 @@ public class FractionDE{
         div.show();
     }
 }
+
